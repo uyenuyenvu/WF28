@@ -1,0 +1,69 @@
+.all{
+	width: 1000px;
+	height: 100px;
+	text-align: center;
+	background-color: aqua;
+}
+.a{
+	float: left;
+	width: 75%;
+	height: 100%;
+	text-align: center;
+}
+
+.x{
+	float: right;
+	width: 25%;
+	height: 100%;
+	float: left;
+	text-align: left;
+}
+.aa{
+	
+	height: 50%;
+	text-align: center;
+}
+.mot{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+.mot:hover{
+	color: blue;
+}
+.hai{
+	float: right;
+	float: left;
+	text-align: center;
+}
+.hai:hover{
+	color: blue;
+}
+.motb{
+	float: left;
+	width: 33%;
+	vertical-align: middle;
+
+}
+.motb:hover{
+	color: blue;
+}
+.haib{
+	float: right;
+	float: left;
+	vertical-align: middle;
+}
+.haib:hover{
+	color: blue;
+}
+
+#xmot:hover{
+	color: red;
+}
+#xhai:hover{
+	color: red;
+}
+b{
+	vertical-align: middle;
+
+}

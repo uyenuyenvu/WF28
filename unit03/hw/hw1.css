@@ -1,0 +1,36 @@
+body{
+
+}
+div{
+	width: 150px;
+	height: 200px;
+	text-align: center;
+	margin-right: 5px;
+}
+#a{
+	border: 1px solid red;
+	float: left;
+}
+.b{
+	border:1px solid black;
+	float: left;
+}
+#c{
+	float: left;
+	border:1px solid black;
+}
+b{
+	color: red;
+}
+p{
+	color: orange;
+}
+div:hover{
+	border-color: violet;
+}
+b:hover{
+	color: blue;
+}
+p:hover{
+	color: green;
+}

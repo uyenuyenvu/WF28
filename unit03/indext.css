@@ -1,0 +1,21 @@
+body{
+	color: white;
+	background: url(img/Capture.PNG);
+	font-style: italic;
+	font-family: Times New Roman;
+	font-size: 900;
+	text-align: justify;
+	text-decoration: overline;
+}
+span{
+	background-color: orange;
+	display: inline-block;
+}
+a:hover{
+	color: yellow;
+	font-size: 200px;
+}
+img{
+	border-radius: 50px;
+	width: 100px;
+}

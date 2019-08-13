@@ -1,0 +1,93 @@
+body{
+	text-align: center;
+	background: url(https://i.imgur.com/HydBpa8.jpg);
+}
+#banner{
+	width: 100%;
+	background-attachment: fixed;
+	height: auto;
+	
+}
+#baner{
+	width: 100%;
+	height: auto;
+}
+#max{
+	border:5px solid white;
+	width: 100%;
+}
+.soc{
+	width: 2px;
+	height: auto;
+}
+#menuu{
+	
+	background-color: #434343;
+    margin-top: -4px;
+    width: 100%;
+    border-bottom: 3px solid #ea662f;
+    text-align: left;
+    color: #ea662f;
+
+}
+#footer{
+	background: black;
+	width: 100%;
+	height: 100px;
+}
+#left{
+	background: yellow;
+	width: 24%;
+	height: 100%;
+	float: left;
+}
+
+#right{
+	background: orange;
+	width: 24%;
+	height: 100%;
+	float: right;
+}
+#conten{
+	width: 100%;
+	height: 500px;
+}
+*{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	width: 76%;
+	font-family: arial;
+}
+#zent{
+	width: 96%;
+	border-radius: 10%;
+	background-color: #ffbb88;
+}
+.main{
+	border: 4px solid white;
+	background: gray;
+	width: 48%;
+	height: 100%;
+	float: left;
+	overflow: auto;
+}
+#cntt{
+	background: url(https://i.imgur.com/gYdoZHo.gif);
+	width: 130%;
+	height: auto;
+	text-align: left;
+	border-bottom: 3px solid #ea662f;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.mainleft img{
+	float: left;
+}
+.mainleft {
+	vertical-align: top;
+	width: 100%;
+}
+.mainleft p{
+	float: right;
+}
