@@ -1,0 +1,22 @@
+#a{
+	width: 200px;
+	height: 200px;
+	margin: 50px 30px 40px 10px;
+	background-color: orange;
+	overflow: auto;
+	border: 5px solid green;
+	padding: 20px;
+}
+#b{
+	width: 200px;
+	height: 200px;
+	
+	background-color: aqua;
+	border: 5px solid green;
+	padding: 10px;
+	overflow: auto;
+
+}
+p:before{
+	content: "chào";
+}

@@ -1,0 +1,238 @@
+body{
+	background: url(https://www.upsieutoc.com/images/2019/08/14/bg.jpg);
+	background-size: 100%;
+}
+h2{
+	float: left;
+
+    margin-left: 15px;
+
+}
+.max{
+	position: relative;
+}
+.banner{
+	width: 70%;
+	height: 70px;
+}
+#login{
+	text-align: right;
+}
+ ul{
+	list-style: none;
+}
+ul li{
+	margin-bottom: 10px;
+	color: #848486;
+}
+#left{
+	float: left;
+	
+    margin-left: -10px;
+}
+#right{
+    margin-left: 40px;
+    margin-top: 20px;
+    float: left;
+}
+.imgg1{
+	height: 250px;
+	border-radius: 7%;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+}
+.imgg2{
+	height: 250px;
+	border-radius: 7%;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+}
+.imgg3{
+	height: 250px;
+	border-radius: 7%;
+	position: relative;
+	margin-right: 20px;
+	float: left;
+}
+.imgg4{
+	height: 250px;
+	border-radius: 7%;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	    margin-top: -40px;
+}
+.imgg5{
+	height: 250px;
+	border-radius: 7%;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	    margin-top: -40px;
+}
+.imgg6{
+	height: 250px;
+	border-radius: 7%;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	    margin-top: -40px;
+}
+.imgg7{
+	height: 250px;
+	border-radius: 7%;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	    margin-top: -40px;
+}
+.banner a{
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+}
+h3{
+    width: 210px;
+    height: 30px;
+    background-color: #eeeeeeee;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: auto;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    z-index: 30;
+}
+.anh1{
+	width: 220px;
+	height: 76%;
+	background-image: url(https://www.upsieutoc.com/images/2019/08/14/ip.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white;
+	position: absolute;
+	bottom: 30px;
+	  vertical-align: bottom;
+	  float: left;
+	
+}
+h6{
+	background-color: #0000009e;
+	padding-top: 10px;
+	margin-top: 135px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+
+}
+.anh2{
+	width: 220px;
+	height: 76%;
+	background-image: url(https://www.upsieutoc.com/images/2019/08/14/travel.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white;
+	position: absolute;
+	bottom: 30px;
+	  vertical-align: bottom;
+	  float: left;
+	
+}
+.anh3{
+	width: 220px;
+	height: 76%;
+	background-image: url(https://www.upsieutoc.com/images/2019/08/14/photo.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white;
+	position: absolute;
+	bottom: 30px;
+	  vertical-align: bottom;
+	 
+	
+}
+.anh4{
+	width: 220px;
+	height: 76%;
+	background-image: url(https://www.upsieutoc.com/images/2019/08/14/finance.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white;
+	position: absolute;
+	bottom: 30px;
+	  vertical-align: bottom;
+	  float: left;
+	
+}
+.anh5{
+	width: 220px;
+	height: 76%;
+	background-image: url(https://www.upsieutoc.com/images/2019/08/14/movie.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white;
+	position: absolute;
+	bottom: 30px;
+	  vertical-align: bottom;
+	  float: left;
+	
+}
+.anh6{
+	width: 220px;
+	height: 76%;
+	background-image: url(https://www.upsieutoc.com/images/2019/08/14/cooking.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white;
+	position: absolute;
+	bottom: 30px;
+	  vertical-align: bottom;
+	
+}
+.anh7{
+	width: 220px;
+	height: 76%;
+	background-image: url(https://www.upsieutoc.com/images/2019/08/14/fashion.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white;
+	position: absolute;
+	bottom: 30px;
+	  vertical-align: bottom;
+	  float: left;
+	  z-index: 10;
+	
+}
+.textt{
+    
+	margin-top: 125px;
+}
+#trong{
+	width: 100%;
+}
+
+.footer{
+	width: 2000px;
+	position: absolute;
+	bottom: -755px;
+	left: 10px;
+	margin-bottom: 20px;
+}
+.footer a{
+	margin-left: 20px;
+	color: blue;
+}
+#signin{
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+#left ul li:hover{
+	color: yellow;
+}
+#right div:hover{
+	width: 230px;
+	height: 78%;
+}

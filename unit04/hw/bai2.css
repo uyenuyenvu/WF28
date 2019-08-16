@@ -1,0 +1,94 @@
+#menu{
+			width: 100%;
+			height: 60px;
+			margin-top: 0px;
+		}
+		#menu>ul{
+			width: 100%;
+			height: 100%;
+			background-color: #78b43d;
+			list-style: none;
+		}
+		.home{
+			font-size: 50px;
+			line-height: 20px;
+		}
+		#menu>ul>li{
+			float: left;
+			height: 100%;
+			line-height: 60px;
+			padding-left: 10px;
+			padding-right: 10px;
+			position: relative;
+		}
+		#menu>ul>li>a>img{
+			float: left;
+			height: 100%;
+			height: 100%;
+			padding-left:0px
+			line-height: 60px;
+		}
+		#menu>ul>li:hover{
+			background-color: #609a26;
+			cursor: pointer;
+		}
+		#menu>ul>li:hover a{
+			color:yellow;
+		}
+		#menu a{
+			text-decoration: none;
+			list-style: none;
+			color: white;
+			
+			height: 60px;
+			display: inline-block;
+		}
+		.sub-menu,.sub-menu-1
+		{
+			display: none;
+			position: absolute;
+			
+			text-decoration: none;
+			top: 0 auto;
+			left: 100%;
+			width: 200px;
+			background: #609a26;
+		}
+		.sub-menu li,.sub-menu-1 li
+		{
+			border-bottom: 1px solid #ccc;
+		}
+		li:hover>.sub-menu{display:block;}
+		li:hover>.sub-menu-1{display:block;}
+		li>.sub-menu
+		{
+			top: 60px;
+			left: 0;
+		}
+		.sub-menuu{
+			position: absolute;
+			width: 300px;
+			background-color: #78b43d;
+			display: none;
+			list-style: none;
+			padding-left: 0px;
+			left: 0;
+		}
+		#menu>ul>li:hover .sub-menuu>li a{
+			color:black;
+		}
+		
+		.sub-menuu li{
+			float: none;
+			border-bottom: 1px solid white;
+		}
+		#menu>ul>li:hover .sub-menuu{
+			display: block;
+		}
+		.sub-menuu li:hover{
+			background-color: #609a26;
+			cursor: pointer;
+		}
+		.sub-menuu li:hover .sub-menuu li a{
+			color:yellow;
+		}

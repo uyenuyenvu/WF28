@@ -1,0 +1,15 @@
+#menu{
+	width: 100%;
+	height: 100px;
+}
+#menu ul{
+	list-style: none;
+	background-color: pink;
+}
+#menu ul li{
+	float: left;
+	margin: 10px;
+}
+#menu a{
+	text-decoration: none;
+}

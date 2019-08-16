@@ -1,0 +1,22 @@
+
+div{
+	border:2px solid green;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	overflow: auto;
+}
+p{
+	position: relative;
+	z-index: 10;
+	margin-top: 0px;
+}
+
+img{
+	z-index: 0;
+	position: absolute;
+}
+.home{
+	font-size: 50px;
+	color: red;
+}
