@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		/*div{
+			width: 100px;
+			height: 100px;
+			background-color: aqua;
+			animation-name: bgcolor;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes bgcolor{
+			from{background-color:aqua }
+			to{background-color: yellow}
+		}*/
+		.uyen{
+			width: 100px;
+			height: 100px;
+			position: relative;
+			background-color: aqua;
+			animation-name: run;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+			/*animation-direction: reverse;*/
+		}
+		@keyframes run{
+			0%{ top:0; left: 0 }
+			25%{top:0; left:500px}
+			50%{top:500px; left: 500px}
+			75%{top:500px; left:0px}
+			100%{top:0; left: 0}
+		}
+	</style>
+</head>
+<body>
+		<div class="uyen"></div>
+</body>
+</html>
