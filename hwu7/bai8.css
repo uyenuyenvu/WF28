@@ -1,0 +1,30 @@
+.banner{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: auto;
+	opacity: 0.5;
+}
+.banner h3{
+	color: blue;
+	float: left;
+	margin-left: 10%;
+}
+.banner ul li{
+	list-style: none;
+	float: left;
+	margin:10px;
+}
+.banner ul{
+	float: right;
+	margin-right: 10%;
+}
+
+.bottom{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}

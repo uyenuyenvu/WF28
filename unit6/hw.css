@@ -409,6 +409,9 @@ nav #list_bottom li{
 	#main2{
 		background-image: url(img/5_3.PNG);
 	}
+	.main1{
+		height: auto;
+	}
 	.main1_1{
 		clear: left;
 		width: 100%;
@@ -416,6 +419,9 @@ nav #list_bottom li{
 	}
 	.left{
 		clear: left;
-		width: 100%
+		width: 100%;
+	}
+	.right{
+		width: 100%;
 	}
 }
