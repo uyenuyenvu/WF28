@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>uyen</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<link rel="stylesheet" href="bai1.css">
+</head>
+<body>
+	<div class="tieude">
+		<h3>uyen 1</h3>
+		<div class="but"><b>+</b></div>
+	</div>
+	<div class="noidung">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tenetur, ex, sed voluptas quae architecto quo nobis voluptatem distinctio tempore ea nostrum impedit rerum quod. Voluptate quae sit repudiandae voluptates ut cum nam deleniti, in fugiat illo nihil voluptatum suscipit, necessitatibus laborum quaerat, consectetur molestiae id atque placeat! Totam, dolorem.</div>
+	<div class="tieude">
+		<h3>uyen 2</h3>
+		<div class="but"><b>+</b></div>
+	</div>
+	<div class="noidung">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tenetur, ex, sed voluptas quae architecto quo nobis voluptatem distinctio tempore ea nostrum impedit rerum quod. Voluptate quae sit repudiandae voluptates ut cum nam deleniti, in fugiat illo nihil voluptatum suscipit, necessitatibus laborum quaerat, consectetur molestiae id atque placeat! Totam, dolorem.</div>
+	<div class="tieude">
+		<h3>uyen 3</h3>
+		<div class="but"><b>+</b></div>
+	</div>
+	<div class="noidung">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo tenetur, ex, sed voluptas quae architecto quo nobis voluptatem distinctio tempore ea nostrum impedit rerum quod. Voluptate quae sit repudiandae voluptates ut cum nam deleniti, in fugiat illo nihil voluptatum suscipit, necessitatibus laborum quaerat, consectetur molestiae id atque placeat! Totam, dolorem.</div>
+
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('.but').on("click",function(){
+				if($(this).html()=="-"){
+					$(this).html("+");
+					$('.noidung').hide();
+				}else{
+					$('.noidung').hide();
+					$('.but').html("+");
+					$(this).html("-");
+					$(this).parent().next().show();
+				}
+		});
+	});
+	</script>
+
+
+	
+</body>
+</html>
