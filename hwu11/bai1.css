@@ -1,0 +1,42 @@
+
+#khung{
+	width: 770px;
+	height: 150px;
+
+}
+.anh{
+	width: 150px;
+	height: 150px;
+	 cursor: pointer;
+	 animation: infinite;
+}
+.anh:hover{
+	opacity: 0.7;
+}
+#mota{
+	width: 1350px;
+	height: 700px;
+	display: none;
+	background-color:#181818cf;
+	/*opacity: 0.8;*/
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#max{
+	width: 150px;
+	height: 150px;
+	margin-top: 50px;
+}
+i{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	right: 10px;
+	top:50px;
+	 cursor: pointer;
+}
+p{
+	color: white;
+	font-size: 40px;
+}

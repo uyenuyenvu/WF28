@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>uyen</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<link rel="stylesheet" href="bai1.css">
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+	<center>
+		<h1>Allbum đồ ăn</h1>
+		<div id="khung">
+			<img src="anh/1.jpg" alt="anh thu nhat" class="anh" >
+			
+			<img src="anh/2.jpg" alt="anh thu hai" class="anh">
+			
+			<img src="anh/3.jpg" alt="anh thu ba" class="anh">
+			
+			<img src="anh/4.jpg" alt="anh thu tu" class="anh">
+			
+			<img src="anh/5.jpg" alt="anh thu nam" class="anh">
+			
+		</div>
+		<div id="mota">
+			<i class="fa fa-times"></i>
+			<img src="" alt="" id="max">
+			<p>	</p>
+		</div>
+	</center>
+	<script type="text/javascript">
+		$(function(){
+
+			$('.anh').click(function(){
+				$('#mota').show();
+				var link=$(this).attr('src');
+				$('#max').attr('src',link);
+				$('#max').animate({
+		width: '480', 
+        height: '480'
+    },1000)
+				var alt=$(this).attr('alt');
+				$('p').html(alt);
+
+
+
+		})
+			$('i').click(function(){
+				$('#mota').hide();
+			})
+
+})
+	</script>
+</body>
+</html>
