@@ -50,17 +50,17 @@ function nextt(){
 }
 for(var i = 0; i < mini.length; i++){
     		mini[i].addEventListener('click',function(){
-    								for(var j = 0; j < mini.length; j++){
-    												mini[j].style.opacity = '0.3';
-    												img[j].style.display='none'
-    												}
-    								this.style.opacity = '0.8';
-    								for(var u=0;u<img.length;u++){
-    									if(mini[u].style.opacity=='0.8'){
-    										img[u].style.display='block';
-    									}
-    								}
-    								})    		
+				for(var j = 0; j < mini.length; j++){
+								mini[j].style.opacity = '0.3';
+								img[j].style.display='none'
+								}
+				this.style.opacity = '0.8';
+				for(var u=0;u<img.length;u++){
+					if(mini[u].style.opacity=='0.8'){
+						img[u].style.display='block';
+					}
+				}
+				})    		
     	}
   var x = setInterval(function(){
   	nextt();
